@@ -2,15 +2,17 @@
 //  SettingsViewController.swift
 //  Prework
 //
-//  Created by Tyler Milliner on 12/21/20.
+//  Created by Sophia Bonsu on 12/21/20.
 //
 
 import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var darkmode: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .yellow
 
         // Do any additional setup after loading the view.
     }
